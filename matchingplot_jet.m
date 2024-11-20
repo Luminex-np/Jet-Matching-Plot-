@@ -22,7 +22,7 @@ Vmax = 1.15 * Vc; % Maximum velocity in m/s
 
 
 
-%take off ko lagi chaine constants
+%take off  constants
 g = 9.81;%acceleration due to gravity
 mu = 0.04;%asphalt ground
 STO = 1100;%runway length in meter
@@ -38,12 +38,12 @@ CLR=CLmax/(1.1^2);
 
 
 
-%roc ko lagi conditions
+%roc conditions
 LDmax= 22.65;
 roc=325.9; %2000 ft/min
 
 
-%service ceiling ko lagi
+%service ceiling conditions
 ac=16764;%absolute ceiling 60000ft
 sigma_ac=0.119593265;
 roc_ac=42;%200ft/min
